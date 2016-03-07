@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		33F17C841C8E3E4C006CAFFE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33F17C831C8E3E4C006CAFFE /* main.cpp */; };
+		33F17C8B1C8E3E78006CAFFE /* isomorphicStrings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33F17C8A1C8E3E78006CAFFE /* isomorphicStrings.cpp */; };
+		33F17C8D1C8E4614006CAFFE /* Anagram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33F17C8C1C8E4614006CAFFE /* Anagram.cpp */; };
+		33F17C8F1C8E46B8006CAFFE /* ValidSudoku.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33F17C8E1C8E46B8006CAFFE /* ValidSudoku.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		33F17C801C8E3E4C006CAFFE /* hash_projects */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = hash_projects; sourceTree = BUILT_PRODUCTS_DIR; };
 		33F17C831C8E3E4C006CAFFE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		33F17C8A1C8E3E78006CAFFE /* isomorphicStrings.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = isomorphicStrings.cpp; sourceTree = "<group>"; };
+		33F17C8C1C8E4614006CAFFE /* Anagram.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Anagram.cpp; sourceTree = "<group>"; };
+		33F17C8E1C8E46B8006CAFFE /* ValidSudoku.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ValidSudoku.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				33F17C831C8E3E4C006CAFFE /* main.cpp */,
+				33F17C8A1C8E3E78006CAFFE /* isomorphicStrings.cpp */,
+				33F17C8C1C8E4614006CAFFE /* Anagram.cpp */,
+				33F17C8E1C8E46B8006CAFFE /* ValidSudoku.cpp */,
 			);
 			path = hash_projects;
 			sourceTree = "<group>";
@@ -118,7 +127,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33F17C8D1C8E4614006CAFFE /* Anagram.cpp in Sources */,
 				33F17C841C8E3E4C006CAFFE /* main.cpp in Sources */,
+				33F17C8B1C8E3E78006CAFFE /* isomorphicStrings.cpp in Sources */,
+				33F17C8F1C8E46B8006CAFFE /* ValidSudoku.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
